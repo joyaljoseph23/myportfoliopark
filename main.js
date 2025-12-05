@@ -144,8 +144,8 @@ scene.add(sun);
 //const shadowHelper = new THREE.CameraHelper( sun.shadow.camera );
 //scene.add(shadowHelper);
 
-const helper=new THREE.DirectionalLightHelper(sun,5);
-scene.add(helper);
+//const helper=new THREE.DirectionalLightHelper(sun,5);
+//scene.add(helper);
 
 const color = 0xFFFFFF;
 const intensity = 3;
@@ -304,3 +304,4 @@ function animate() {
 }
 
 renderer.setAnimationLoop( animate );
+
