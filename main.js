@@ -141,8 +141,8 @@ sun.shadow.camera.bottom=-100;
 sun.shadow.normalBias=0.3;
 scene.add(sun);
 
-const shadowHelper = new THREE.CameraHelper( sun.shadow.camera );
-scene.add(shadowHelper);
+//const shadowHelper = new THREE.CameraHelper( sun.shadow.camera );
+//scene.add(shadowHelper);
 
 const helper=new THREE.DirectionalLightHelper(sun,5);
 scene.add(helper);
@@ -302,4 +302,5 @@ function animate() {
   }
   renderer.render( scene, camera );
 }
+
 renderer.setAnimationLoop( animate );
